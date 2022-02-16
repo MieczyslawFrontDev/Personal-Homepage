@@ -1,0 +1,1 @@
+export const contactText = "Hi. If you are on this site, it means that you are interested in the front-end. Thats's fantastic ! Maybe you would like to create a website or application? if you have any interesting ideas, I can help you with the projects. Feel free contact me 😉"
