@@ -5,7 +5,7 @@ export const getRepositoriesFromApi = async () => {
     "https://api.github.com/users/MieczyslawFrontDev/repos"
   );
 
-  const repositories = response.data;
+  const repositories = await response.data;
   console.log(repositories);
-  return await repositories;
+  return repositories;
 };
