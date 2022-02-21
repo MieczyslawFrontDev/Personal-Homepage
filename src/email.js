@@ -1,0 +1,1 @@
+export const email = "frontend.dev.pm@gmail.com";

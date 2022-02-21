@@ -14,8 +14,10 @@ html {
   };
   
 body {
-    background: ${({ theme }) => theme.colors.whiteLilac};
-    max-width: 1216px;
-    margin: 115px auto;
+  max-width: 1216px;
+  margin: 115px auto;
+  background: ${({ theme }) => theme.colors.whiteLilac};
+  color: ${({ theme }) => theme.colors.mineShaft};
+  letter-spacing: 0.05em;
   }
 `;

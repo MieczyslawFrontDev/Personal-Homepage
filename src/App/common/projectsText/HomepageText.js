@@ -1,1 +1,0 @@
-export default "This page is about me so you can get to know me better :) I inclucded some information about my adventure with programming and passions too. If You want to get to know me better and talk about the front-end, send me a message immediately via the form !";

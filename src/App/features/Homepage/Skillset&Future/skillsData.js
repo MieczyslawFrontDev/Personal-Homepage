@@ -1,0 +1,30 @@
+export const skillsData = [
+  "HTML",
+  "CSS ",
+  "FlexBox",
+  "Grid",
+  "Styled Components",
+  "Responsing web Design",
+  "JavaScript: ES6+",
+  "Immutability",
+  "React",
+  "React Hooks",
+  "Redux (Toolkit)",
+  "Redux-Saga",
+  "React Router",
+  "Promises, Async/Await",
+  "Working with API (fetch, axios)",
+  "Error handling",
+  "Git",
+  "GitHub",
+  "NPM",
+  "Scrum",
+  "Teamwork",
+  "Trello",
+];
+
+export const nextSkillsData = [
+  "TypeScript",
+  "React Native",
+  "Node.js",
+];

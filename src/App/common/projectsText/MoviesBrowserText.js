@@ -1,1 +1,0 @@
-export default "Project description, e.g. website where you can search for favourite movies and people."
