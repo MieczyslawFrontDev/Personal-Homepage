@@ -1,4 +1,5 @@
 import { Text, LinkContainer, Link, Tile, Title, List } from "./styled";
+
 export const Repositories = ({ repositories }) => (
   <List>
     {repositories.map(({ id, name, description, homepage, html_url }) => (
@@ -6,17 +7,17 @@ export const Repositories = ({ repositories }) => (
         <Title>{name}</Title>
         <Text>{description}</Text>
         <LinkContainer>
-          {!homepage && (
+          {homepage && (
             <span>
               Demo:
-              <Link href={homepage} target="_blank">
-                Application
+              <Link href={homepage} target="_blank" rel="noreferrer">
+                {homepage}
               </Link>
             </span>
           )}
           <span>
             Code:
-            <Link href={html_url} target="_blank">
+            <Link href={html_url} target="_blank" rel="noreferrer">
               Repository
             </Link>
           </span>

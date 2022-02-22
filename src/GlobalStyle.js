@@ -14,10 +14,8 @@ html {
   };
   
 body {
-  max-width: 1216px;
-  margin: 115px auto;
-  background: ${({ theme }) => theme.colors.whiteLilac};
-  color: ${({ theme }) => theme.colors.mineShaft};
+  background: ${({ theme }) => theme.colors.background};
+  transition: 0.5s;
   letter-spacing: 0.05em;
   }
 `;

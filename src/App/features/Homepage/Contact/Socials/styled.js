@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "../Socials/icons/github.svg";
-import { ReactComponent as Facebook } from "../Socials/icons/facebook.svg";
-import { ReactComponent as LinkedIn } from "../Socials/icons/linkedIn.svg";
+import { ReactComponent as GitHub } from "./icons/github.svg";
+import { ReactComponent as Facebook } from "./icons/facebook.svg";
+import { ReactComponent as LinkedIn } from "./icons/linkedIn.svg";
 
 export const SocialList = styled.ul`
   max-width: 192px;
@@ -18,26 +18,36 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
-  &:hover {
-    color: ${({ theme }) => theme.colors.scienceBlue};
-  }
+  height: auto;
 `;
 
 export const GitHubIcon = styled(GitHub)`
-&:hover path {
+  path {
+    fill: ${({ theme }) => theme.colors.textSecondary};
+  }
+
+  &:hover path {
     transition: 0.3s linear;
-    fill: ${({ theme }) => theme.colors.scienceBlue}
-}
-`
+    fill: ${({ theme }) => theme.colors.primary};
+  }
+`;
 export const FacebookIcon = styled(Facebook)`
-&:hover path {
+  path {
+    fill: ${({ theme }) => theme.colors.textSecondary};
+  }
+
+  &:hover path {
     transition: 0.3s linear;
-    fill: ${({ theme }) => theme.colors.scienceBlue}
-}
-`
+    fill: ${({ theme }) => theme.colors.primary};
+  }
+`;
 export const LinkedInIcon = styled(LinkedIn)`
-&:hover path {
+  path {
+    fill: ${({ theme }) => theme.colors.textSecondary};
+  }
+
+  &:hover path {
     transition: 0.3s linear;
-    fill: ${({ theme }) => theme.colors.scienceBlue}
-}
-`
+    fill: ${({ theme }) => theme.colors.primary};
+  }
+`;

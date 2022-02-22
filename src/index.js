@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { ThemeProvider } from "styled-components";
 import reportWebVitals from "./reportWebVitals";
-import { GlobalStyle } from "./GlobalStyle";
-import { theme } from "./theme";
 import App from "./App";
 import { Provider } from "react-redux";
 import { store } from "./store";
@@ -11,10 +8,7 @@ import { store } from "./store";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
         <App />
-      </ThemeProvider>
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")

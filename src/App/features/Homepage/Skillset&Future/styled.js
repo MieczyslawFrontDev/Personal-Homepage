@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   max-width: 1216px;
-  background: ${({ theme }) => theme.colors.white};
+  background: ${({ theme }) => theme.colors.tile.background};
   margin-top: 73px;
   padding: 32px;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
@@ -23,7 +23,7 @@ export const Title = styled.h2`
   text-align: center;
   letter-spacing: 0.05em;
   margin: 0 16px 0 0;
-  color: ${({ theme }) => theme.colors.mainShaft};
+  color: ${({ theme }) => theme.colors.headers};
 `;
 export const Icon = styled.img`
   width: 27px;
@@ -33,15 +33,16 @@ export const List = styled.ul`
   margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
   padding-left: 20px;
 `;
 export const Item = styled.li`
   font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.colors.slateGray};
+  color: ${({ theme }) => theme.colors.textPrimary};
 
   &::marker {
-    color: ${({ theme }) => theme.colors.scienceBlue};
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;

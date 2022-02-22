@@ -12,10 +12,11 @@ export const Wrapper = styled.div`
   font-size: 20px;
   display: grid;
   justify-items: center;
+  color: ${({theme}) => theme.colors.textSecondary}
 `;
 export const StyledSpinner = styled(Spinner)`
   margin-top: 48px;
   animation: ${rotate} 1s linear infinite;
-  color: ${({ theme }) => theme.colors.scienceBlue};
+  color: ${({ theme }) => theme.colors.primary};
   height: auto;
 `;

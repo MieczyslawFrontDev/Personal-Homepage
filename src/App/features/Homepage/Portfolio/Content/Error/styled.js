@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   text-align: center;
   font-size: 20px;
   margin-top: 96px;
+  color: ${({theme}) => theme.colors.textSecondary}
 `;
 
 export const Header = styled.h3`

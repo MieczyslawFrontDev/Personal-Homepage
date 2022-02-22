@@ -1,19 +1,19 @@
 import React from "react";
-import { Person } from "./App/features/Homepage/Person"
-import { Skillset } from "./App/features/Homepage/Skillset&Future/Skillset";
-import { Future } from "./App/features/Homepage/Skillset&Future/Future";
-import { Portfolio } from "./App/features/Homepage/Portfolio";
-import { Contact } from "./App/features/Homepage/Contact";
+import { GlobalStyle } from "./GlobalStyle";
+import { ThemeProvider } from "styled-components";
+import { selectIsDarkTheme } from "./App/common/ThemeSwitch/themeSlice";
+import { useSelector } from "react-redux";
+import { darkTheme, lightTheme } from "./theme";
+import { PersonalHomepage } from "./App/features/Homepage";
 
 function App() {
+  const isDarkTheme = useSelector(selectIsDarkTheme);
+
   return (
-    <>
-      <Person />
-      <Skillset />
-      <Future />
-      <Portfolio />
-      <Contact />
-    </>
+    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
+      <GlobalStyle />
+      <PersonalHomepage />
+    </ThemeProvider>
   );
 }
 

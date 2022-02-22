@@ -12,8 +12,8 @@ export const Content = ({ status, repositories }) => {
       return <Loading />;
 
     case "error":
-      return <ErrorBox/>;
-      
+      return <ErrorBox />;
+
     case "success":
       return <Repositories repositories={repositories} />;
 

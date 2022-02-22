@@ -6,7 +6,7 @@ export const getRepositoriesFromApi = async () => {
 
   const response = await axios.get(repositoriesUrl);
 
-  const repositories = response.data;
+  // const repositories = response.data;
 
-  return repositories;
+  return response.data;
 };

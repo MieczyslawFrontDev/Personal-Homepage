@@ -32,4 +32,4 @@ const selectHomepageState = state => state.homepage;
 export const selectRepositories = state => selectHomepageState(state).repositories;
 export const selectRepositoriesStatus = state => selectHomepageState(state).status
 
-export default homepageSlice.reducer;
+export const homepageReducer =  homepageSlice.reducer;
