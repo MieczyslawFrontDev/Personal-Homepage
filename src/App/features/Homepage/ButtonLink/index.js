@@ -7,14 +7,18 @@ export const ButtonLink = styled.a`
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.colors.buttonLink.text};
   transition: box-shadow 0.5s;
 
   &:hover {
-    box-shadow: 2px -2px 0px #8cc2ff,
-    -2px 2px 0px #8cc2ff, 2px 2px 0px #8cc2ff,
+    box-shadow: 
+    2px -2px 0px #8cc2ff,
+    -2px 2px 0px #8cc2ff, 
+    2px 2px 0px #8cc2ff,
     -2px -2px 0px #8cc2ff;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+    font-size: 18px;
   }
 `;

@@ -18,7 +18,12 @@ const colorNames = {
   mineShaftLighter: "#313131",
 };
 
+const breakpoints = {
+    mobileMax: "767px",
+}
+
 export const lightTheme = {
+    ...breakpoints,
   colors: {
     primary: colorNames.scienceBlue,
     textPrimary: colorNames.slateGray,
@@ -31,7 +36,9 @@ export const lightTheme = {
     },
     tile: {
         background: colorNames.white,
-        border: colorNames.bluemine,
+        border: colorNames.porcelain,
+        borderHover: colorNames.tropicalBlue,
+
     },
     themeSwitch: {
        background: colorNames.mercury,
@@ -41,6 +48,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
+    ...breakpoints,
   colors: {
     primary: colorNames.dodgerBlue,
     textPrimary: colorNames.white,
@@ -53,7 +61,8 @@ export const darkTheme = {
     },
     tile: {
         background: colorNames.mineShaftLighter,
-        border: colorNames.bluemine,
+        border: colorNames.ironTransparent,
+        borderHover: colorNames.bluemine,
     },
     themeSwitch: {
         background: colorNames.doveGray,
@@ -61,3 +70,4 @@ export const darkTheme = {
      },
   },
 };
+

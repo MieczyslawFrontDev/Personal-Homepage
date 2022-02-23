@@ -1,4 +1,4 @@
-import { Text, LinkContainer, Link, Tile, Title, List } from "./styled";
+import { Text, LinkContainer, Link, Tile, Title, List, Links } from "./styled";
 
 export const Repositories = ({ repositories }) => (
   <List>
@@ -7,20 +7,20 @@ export const Repositories = ({ repositories }) => (
         <Title>{name}</Title>
         <Text>{description}</Text>
         <LinkContainer>
-          {homepage && (
-            <span>
+          {!homepage && (
+            <Links>
               Demo:
               <Link href={homepage} target="_blank" rel="noreferrer">
-                {homepage}
+                Application
               </Link>
-            </span>
+            </Links>
           )}
-          <span>
+          <Links>
             Code:
             <Link href={html_url} target="_blank" rel="noreferrer">
               Repository
             </Link>
-          </span>
+          </Links>
         </LinkContainer>
       </Tile>
     ))}

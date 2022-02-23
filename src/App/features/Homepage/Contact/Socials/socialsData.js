@@ -10,11 +10,13 @@ export const socialsData = [
   {
     name: "Facebook",
     url: "https://www.facebook.com/markizvip/",
+
     Icon: FacebookIcon,
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/mieczys%C5%82aw-przytu%C5%82a-594612231/",
+    // Icon: styledIcon(LinkedIn),
     Icon: LinkedInIcon,
   },
 ];

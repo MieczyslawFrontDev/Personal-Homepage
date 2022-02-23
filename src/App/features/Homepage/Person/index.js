@@ -1,5 +1,5 @@
 import { email } from "../../../../email";
-import { Image, Caption, Title, Text, Wrapper } from "./styled";
+import { Image, Caption, Title, Text, Wrapper, About } from "./styled";
 import { StyledButtonLink } from "./styled";
 import { ButtonIcon } from "./styled";
 import Avatar from "./images/avatar.jpg";
@@ -7,7 +7,7 @@ import Avatar from "./images/avatar.jpg";
 export const Person = () => (
   <Wrapper>
     <Image src={Avatar} alt="Mieczysław Przytuła"/>
-    <div>
+    <About>
       <Caption>This is</Caption>
       <Title>Mieczysław Przytuła</Title>
       <Text>
@@ -18,6 +18,6 @@ export const Person = () => (
         <ButtonIcon />
         Hire Me
       </StyledButtonLink>
-    </div>
+    </About>
   </Wrapper>
 );

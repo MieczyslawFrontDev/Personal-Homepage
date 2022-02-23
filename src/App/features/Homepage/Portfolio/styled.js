@@ -3,8 +3,6 @@ import { ReactComponent as GitHub } from "../Portfolio/github_blue.svg";
 
 export const Wrapper = styled.section`
   margin-top: 72px;
-  display: grid;
-  justify-items: center;
 `;
 
 export const Header = styled.header`
@@ -17,14 +15,21 @@ export const Caption = styled.h2`
   line-height: 36px;
   margin: 13px 0 8px 0;
   color: ${({ theme }) => theme.colors.headers};
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+    font-size: 18px;
+  }
 `;
 
 export const Paragraph = styled.p`
   font-size: 20px;
   line-height: 140%;
-  letter-spacing: 0.05em;
   margin: 0;
   color: ${({ theme }) => theme.colors.headers};
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+    font-size: 18px;
+  }
 `;
 
 export const GitHubIcon = styled(GitHub)`

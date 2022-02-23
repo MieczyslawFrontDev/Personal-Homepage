@@ -17,5 +17,7 @@ body {
   background: ${({ theme }) => theme.colors.background};
   transition: 0.5s;
   letter-spacing: 0.05em;
+  overflow-y: scroll;
+  word-break: break-word;
   }
 `;

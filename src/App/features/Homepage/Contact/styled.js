@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-  max-width: 691px;
   margin-top: 120px;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+    margin-top: 48px;
+  }
 `;
 export const Caption = styled.span`
   font-size: 12px;
@@ -20,6 +23,10 @@ export const Email = styled.h2`
   color: ${({ theme }) => theme.colors.headers};
   cursor: pointer;
 
+  @media(max-width: ${({theme}) => theme.mobileMax}){
+    font-size: 18px;
+  }
+
   &:hover {
     transition: 0.3s linear;
     color: ${({ theme }) => theme.colors.primary};
@@ -32,4 +39,7 @@ export const Text = styled.p`
   margin: 24px 0 56px 0;
   color: ${({ theme }) => theme.colors.textSecondary};
 
+  @media(max-width: ${({theme}) => theme.mobileMax}){
+    font-size: 14px;
+  }
 `;

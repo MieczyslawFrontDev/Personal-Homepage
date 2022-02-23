@@ -4,10 +4,8 @@ import { ReactComponent as Facebook } from "./icons/facebook.svg";
 import { ReactComponent as LinkedIn } from "./icons/linkedIn.svg";
 
 export const SocialList = styled.ul`
-  max-width: 192px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -18,7 +16,7 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
-  height: auto;
+
 `;
 
 export const GitHubIcon = styled(GitHub)`
@@ -30,6 +28,12 @@ export const GitHubIcon = styled(GitHub)`
     transition: 0.3s linear;
     fill: ${({ theme }) => theme.colors.primary};
   }
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+    width: 32px;
+  }
+
+
 `;
 export const FacebookIcon = styled(Facebook)`
   path {
@@ -40,7 +44,12 @@ export const FacebookIcon = styled(Facebook)`
     transition: 0.3s linear;
     fill: ${({ theme }) => theme.colors.primary};
   }
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+    width: 32px;
+  }
 `;
+
 export const LinkedInIcon = styled(LinkedIn)`
   path {
     fill: ${({ theme }) => theme.colors.textSecondary};
@@ -49,5 +58,9 @@ export const LinkedInIcon = styled(LinkedIn)`
   &:hover path {
     transition: 0.3s linear;
     fill: ${({ theme }) => theme.colors.primary};
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+    width: 32px;
   }
 `;
