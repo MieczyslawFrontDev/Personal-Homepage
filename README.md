@@ -9,6 +9,17 @@ You can contact me by e-mail or socials media.
 
 https://mieczyslawfrontdev.github.io/Personal-Homepage/
 
+# Technologies 
+
+1. HTML
+2. CSS (Flexbox, Grid, mediaQ)
+3. JavaScript
+4. React (Hooks, Styled-Components)
+5. Redux (Saga, Toolkit)
+6. Babel
+7. Webpack
+8. ES6+  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
