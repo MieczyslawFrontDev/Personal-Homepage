@@ -1,3 +1,10 @@
+# Description
+
+Welcome to my website. You can see what skills i have and what projects i have designed.
+Projects are downloaded from github api and links to them are placed under the description.
+Additionally the website is configured for mobile devices.
+You can contact me by e-mail or socials media. 
+
 # Demo
 
 https://mieczyslawfrontdev.github.io/Personal-Homepage/
