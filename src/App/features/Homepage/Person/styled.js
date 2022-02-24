@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { ButtonLink } from "../ButtonLink";
-// import myPhoto from "./images/Photo.jpg";
 import { ReactComponent as EnvelopeIcon } from "./images/envelope.svg";
 
 export const Wrapper = styled.header`
   display: grid;
   grid-template-columns: auto 1fr;
+  align-items: center;
   grid-gap: 66px;
   max-width: 1089px;
   margin-top: -30px;
@@ -17,11 +17,10 @@ export const Wrapper = styled.header`
 `;
 
 export const Image = styled.img`
-  /* width: 30vw;
-  height: 30vw; */
   width: 384px;
   height: 384px;
   border-radius: 50%;
+  margin-top: 64px;
 
   @media (max-width: ${({ theme }) => theme.mobileMax}) {
     width: 132px;
@@ -31,13 +30,14 @@ export const Image = styled.img`
 `;
 
 export const About = styled.div`
+  margin-top: 64px;
+
   @media (max-width: ${({ theme }) => theme.mobileMax}) {
     margin: 0;
   }
 `;
 
 export const Caption = styled.div`
-  margin-top: 64px;
   font-weight: bold;
   font-size: 12px;
   color: ${({ theme }) => theme.colors.textPrimary};
@@ -45,7 +45,7 @@ export const Caption = styled.div`
   text-transform: uppercase;
 
   @media (max-width: ${({ theme }) => theme.mobileMax}) {
-    margin-top: 0 ;
+    margin-top: 0;
   }
 `;
 
@@ -57,7 +57,7 @@ export const Title = styled.h1`
   line-height: 46px;
   letter-spacing: 0.05em;
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
     font-size: 22px;
     margin-top: 8px;
   }
@@ -70,9 +70,9 @@ export const Text = styled.p`
   line-height: 140%;
   letter-spacing: 0.05em;
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media (max-width: ${({ theme }) => theme.mobileMax}) {
     font-size: 18px;
-    margin: 16px 0 24px 0; 
+    margin: 16px 0 24px 0;
   }
 `;
 

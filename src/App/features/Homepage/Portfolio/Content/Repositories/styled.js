@@ -56,21 +56,23 @@ export const Text = styled.p`
 
 export const LinkContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 10px;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.mobileMax}){
     font-size: 14px;
   }
 `;
 
 export const Links = styled.span`
-display: flex;
+display: grid;
+grid-template-columns: 4em 1fr;
 `
 export const Link = styled.a`
-  align-items: center;
   color: ${({ theme }) => theme.colors.primary};
-  margin-left: 8px;
   text-decoration: none;
   border-bottom: 1px solid rgb(3 102 214 / 0.2);
+
+  &:hover{
+    border-bottom: 1px solid rgb(3 102 214);
+  }
 `;

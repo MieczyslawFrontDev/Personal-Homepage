@@ -19,5 +19,6 @@ body {
   letter-spacing: 0.05em;
   overflow-y: scroll;
   word-break: break-word;
+  padding: 20px;
   }
 `;

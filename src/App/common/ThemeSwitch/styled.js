@@ -21,6 +21,10 @@ export const Text = styled.span`
   margin-right: 12px;
   text-transform: uppercase;
   color: ${({ theme }) => theme.colors.textSecondary};
+
+  @media(max-width: ${({theme}) => theme.mobileMax}){
+    display: none;
+  }
 `;
 
 export const Box = styled.span`

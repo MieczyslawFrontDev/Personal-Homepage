@@ -10,16 +10,20 @@ export const Repositories = ({ repositories }) => (
           {!homepage && (
             <Links>
               Demo:
-              <Link href={homepage} target="_blank" rel="noreferrer">
-                Application
-              </Link>
+              <span>
+                <Link href={homepage} target="_blank" rel="noreferrer">
+                  Application
+                </Link>
+              </span>
             </Links>
           )}
           <Links>
             Code:
-            <Link href={html_url} target="_blank" rel="noreferrer">
-              Repository
-            </Link>
+            <span>
+              <Link href={html_url} target="_blank" rel="noreferrer">
+                Repository
+              </Link>
+            </span>
           </Links>
         </LinkContainer>
       </Tile>
