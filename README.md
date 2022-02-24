@@ -1,7 +1,7 @@
 # Description
 
-Welcome to my website. You can see what skills i have and what projects i have designed.
-Projects are downloaded from github api and links to them are placed under the description.
+Welcome to my website. You can see what skills I have and what technologies i would like learn in the future. 
+The projects I have designed are downloaded from github api and links to them are placed under the description.
 Additionally the website is configured for mobile devices.
 You can contact me by e-mail or socials media. 
 
