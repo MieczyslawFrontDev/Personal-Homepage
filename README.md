@@ -14,7 +14,7 @@ https://mieczyslawfrontdev.github.io/Personal-Homepage/
 1. HTML
 2. CSS (Flexbox, Grid, mediaQ)
 3. JavaScript
-4. React (Hooks, Styled-Components)
+4. React (Hooks, Styled-Components, Axios)
 5. Redux (Saga, Toolkit)
 6. Babel
 7. Webpack
