@@ -1,6 +1,24 @@
+# Description
+
+Welcome to my website. You can see what skills I have and what technologies i would like learn in the future. 
+The projects I have designed are downloaded from github api and links to them are placed under the description.
+Additionally the website is configured for mobile devices.
+You can contact me by e-mail or socials media. 
+
 # Demo
 
 https://mieczyslawfrontdev.github.io/Personal-Homepage/
+
+# Technologies 
+
+1. HTML
+2. CSS (Flexbox, Grid, mediaQ)
+3. JavaScript
+4. React (Hooks, Styled-Components, Axios)
+5. Redux (Saga, Toolkit)
+6. Babel
+7. Webpack
+8. ES6+  
 
 # Getting Started with Create React App
 
