@@ -29,7 +29,7 @@ export const GitHubIcon = styled(GitHub)`
     fill: ${({ theme }) => theme.colors.primary};
   }
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     width: 32px;
   }
 
@@ -45,7 +45,7 @@ export const FacebookIcon = styled(Facebook)`
     fill: ${({ theme }) => theme.colors.primary};
   }
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     width: 32px;
   }
 `;
@@ -60,7 +60,7 @@ export const LinkedInIcon = styled(LinkedIn)`
     fill: ${({ theme }) => theme.colors.primary};
   }
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     width: 32px;
   }
 `;

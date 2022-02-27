@@ -8,7 +8,7 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-gap: 32px;
 
-@media (max-width: ${({ theme }) => theme.mobileMax}) {
+@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     grid-template-columns: 1fr;
     grid-gap: 24px;
   }
@@ -28,7 +28,7 @@ export const Tile = styled.li`
     border: 6px solid ${({ theme }) => theme.colors.tile.borderHover};
   }
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     padding: 20px;
     margin: 0;
   }
@@ -40,7 +40,7 @@ export const Title = styled.h3`
   color: ${({ theme }) => theme.colors.primary};
   margin: 0;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 16px;
   }
 `;
@@ -49,7 +49,7 @@ export const Text = styled.p`
   line-height: 140%;
   margin: 24px 0 24px 0;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 14px;
   }
 `;
@@ -58,7 +58,7 @@ export const LinkContainer = styled.div`
   display: grid;
   grid-gap: 10px;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}){
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}){
     font-size: 14px;
   }
 `;

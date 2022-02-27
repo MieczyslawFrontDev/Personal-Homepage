@@ -6,7 +6,7 @@ export const Skillset = () => (
   <Wrapper>
     <Header>
       <Title>My skillset includes</Title>
-      <Icon src={skillsIcon} />
+      <Icon src={skillsIcon} alt="" />
     </Header>
     <List>
       {skillsData.map((item) => (

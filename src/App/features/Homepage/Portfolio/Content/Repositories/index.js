@@ -7,7 +7,7 @@ export const Repositories = ({ repositories }) => (
         <Title>{name}</Title>
         <Text>{description}</Text>
         <LinkContainer>
-          {!homepage && (
+          {homepage && (
             <Links>
               Demo:
               <span>

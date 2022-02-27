@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.footer`
   margin-top: 120px;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     margin-top: 48px;
   }
 `;
@@ -23,7 +23,7 @@ export const Email = styled.h2`
   color: ${({ theme }) => theme.colors.headers};
   cursor: pointer;
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
     font-size: 18px;
   }
 
@@ -39,7 +39,7 @@ export const Text = styled.p`
   margin: 24px 0 56px 0;
   color: ${({ theme }) => theme.colors.textSecondary};
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
     font-size: 14px;
   }
 `;

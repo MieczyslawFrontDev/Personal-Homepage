@@ -11,7 +11,6 @@ function* axiosRepositoriesWorker() {
     yield delay(2000);
     const repositories = yield call(getRepositoriesFromApi);
     yield put(axiosGetRepositoriesSuccess(repositories));
-    console.log(repositories);
   } catch (error) {
     yield put(axiosGetRepositoriesError());
   }

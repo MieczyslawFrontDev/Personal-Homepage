@@ -6,7 +6,7 @@ export const Future = () => (
   <Wrapper>
     <Header>
       <Title>What I want to learn next</Title>
-      <Icon src={rocketIcon} />
+      <Icon src={rocketIcon} alt=""/>
     </Header>
     <List>
       {nextSkillsData.map(item => (

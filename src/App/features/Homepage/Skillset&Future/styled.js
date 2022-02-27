@@ -15,7 +15,7 @@ export const Wrapper = styled.section`
     border: 6px solid ${({ theme }) => theme.colors.tile.borderHover};
   }
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
    padding: 16px;
    margin-top: 48px;
   }
@@ -34,7 +34,7 @@ export const Title = styled.h2`
   margin: 0 16px 0 0;
   color: ${({ theme }) => theme.colors.headers};
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
     font-size: 18px;
   }
 `;
@@ -50,7 +50,7 @@ export const List = styled.ul`
   grid-gap: 8px 32px;
   padding: 0;
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
     grid-template-columns: 1fr;
     padding: 0;
   }
@@ -66,7 +66,7 @@ export const Item = styled.li`
     color: ${({ theme }) => theme.colors.primary};
   }
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
     font-size: 14px;
   }
 `;

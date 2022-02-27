@@ -10,7 +10,7 @@ export const Wrapper = styled.header`
   max-width: 1089px;
   margin-top: -30px;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     grid-template-columns: 1fr;
     grid-gap: 0;
   }
@@ -19,10 +19,10 @@ export const Wrapper = styled.header`
 export const Image = styled.img`
   width: 384px;
   height: 384px;
+  max-width: 384px;
   border-radius: 50%;
-  margin-top: 64px;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     width: 132px;
     height: 132px;
     margin: 32px 0 20px 0;
@@ -30,9 +30,8 @@ export const Image = styled.img`
 `;
 
 export const About = styled.div`
-  margin-top: 64px;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     margin: 0;
   }
 `;
@@ -44,7 +43,7 @@ export const Caption = styled.div`
   line-height: 130%;
   text-transform: uppercase;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     margin-top: 0;
   }
 `;
@@ -57,7 +56,7 @@ export const Title = styled.h1`
   line-height: 46px;
   letter-spacing: 0.05em;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 22px;
     margin-top: 8px;
   }
@@ -70,7 +69,7 @@ export const Text = styled.p`
   line-height: 140%;
   letter-spacing: 0.05em;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 18px;
     margin: 16px 0 24px 0;
   }

@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
   justify-items: center;
   color: ${({theme}) => theme.colors.textSecondary};
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     margin-top: 60px;
     font-size: 16px;
   }
@@ -27,7 +27,7 @@ export const StyledSpinner = styled(Spinner)`
   color: ${({ theme }) => theme.colors.primary};
   height: auto;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     height: 60px;
   }
 `;

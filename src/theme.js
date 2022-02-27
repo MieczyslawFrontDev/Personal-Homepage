@@ -18,12 +18,14 @@ const colorNames = {
   mineShaftLighter: "#313131",
 };
 
-const breakpoints = {
-    mobileMax: "767px",
+const common = {
+    breakpoints: {
+      mobileMax: "767px",
+    }
 }
 
 export const lightTheme = {
-    ...breakpoints,
+    ...common,
   colors: {
     primary: colorNames.scienceBlue,
     textPrimary: colorNames.slateGray,
@@ -48,7 +50,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-    ...breakpoints,
+    ...common,
   colors: {
     primary: colorNames.dodgerBlue,
     textPrimary: colorNames.white,

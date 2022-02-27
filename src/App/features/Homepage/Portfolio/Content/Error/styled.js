@@ -14,7 +14,7 @@ export const Header = styled.h3`
   font-size: 24px;
   margin: 0;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 20px;
   }
 `;
@@ -24,7 +24,7 @@ export const Paragraph = styled.p`
   line-height: 1.4;
   margin: 0;
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 16px;
   }
 `;

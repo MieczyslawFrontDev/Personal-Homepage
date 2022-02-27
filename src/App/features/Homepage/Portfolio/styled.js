@@ -16,7 +16,7 @@ export const Caption = styled.h2`
   margin: 13px 0 8px 0;
   color: ${({ theme }) => theme.colors.headers};
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 18px;
   }
 `;
@@ -27,7 +27,7 @@ export const Paragraph = styled.p`
   margin: 0;
   color: ${({ theme }) => theme.colors.headers};
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 18px;
   }
 `;

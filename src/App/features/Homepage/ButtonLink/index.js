@@ -18,7 +18,7 @@ export const ButtonLink = styled.a`
     -2px -2px 0px #8cc2ff;
   }
 
-  @media (max-width: ${({ theme }) => theme.mobileMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 18px;
   }
 `;
