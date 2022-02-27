@@ -4,6 +4,7 @@ import { ReactComponent as SunIcon } from "./sun.svg";
 export const Wrapper = styled.div`
   display: flex;
   justify-content: flex-end;
+  
 `;
 
 export const Button = styled.button`
@@ -22,7 +23,7 @@ export const Text = styled.span`
   text-transform: uppercase;
   color: ${({ theme }) => theme.colors.textSecondary};
 
-  @media(max-width: ${({theme}) => theme.mobileMax}){
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
     display: none;
   }
 `;
