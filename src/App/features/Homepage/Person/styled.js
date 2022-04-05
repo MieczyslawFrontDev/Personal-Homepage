@@ -17,12 +17,13 @@ export const Wrapper = styled.header`
   }
 `;
 
-export const Image = styled.div`
+export const Image = styled.img`
   width: 384px;
   max-width: 384px;
   height: 384px;
   border-radius: 50%;
   background-image: url(${Portrait});
+  background-size: cover;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     width: 132px;
