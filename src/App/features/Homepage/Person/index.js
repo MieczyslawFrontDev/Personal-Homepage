@@ -2,11 +2,10 @@ import { email } from "../../../../email";
 import { Image, Caption, Title, Text, Wrapper, About } from "./styled";
 import { StyledButtonLink } from "./styled";
 import { ButtonIcon } from "./styled";
-import Avatar from "./images/avatar.jpg";
 
 export const Person = () => (
   <Wrapper>
-    <Image src={Avatar} alt="Mieczysław Przytuła"/>
+    <Image />
     <About>
       <Caption>This is</Caption>
       <Title>Mieczysław Przytuła</Title>
