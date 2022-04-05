@@ -1,15 +1,19 @@
-# Description
+# PERSONAL HOMEPAGE
+
+## Description
 
 Welcome to my website. You can see what skills I have and what technologies i would like learn in the future. 
 The projects I have designed are downloaded from github api and links to them are placed under the description.
 Additionally the website is configured for mobile devices.
 You can contact me by e-mail or socials media. 
 
-# Demo
+![animation](https://github.com/MieczyslawFrontDev/Personal-Homepage/blob/main/PersonalHomepage%20animation.gif?raw=true)
+
+## Demo
 
 https://mieczyslawfrontdev.github.io/Personal-Homepage/
 
-# Technologies 
+## Technologies 
 
 1. HTML
 2. CSS (Flexbox, Grid, mediaQ)
@@ -20,7 +24,7 @@ https://mieczyslawfrontdev.github.io/Personal-Homepage/
 7. Webpack
 8. ES6+  
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
