@@ -5,6 +5,8 @@ The projects I have designed are downloaded from github api and links to them ar
 Additionally the website is configured for mobile devices.
 You can contact me by e-mail or socials media. 
 
+![animation](https://github.com/MieczyslawFrontDev/Personal-Homepage/blob/main/PersonalHomepage%20animation.gif?raw=true)
+
 # Demo
 
 https://mieczyslawfrontdev.github.io/Personal-Homepage/
