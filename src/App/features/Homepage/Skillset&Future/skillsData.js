@@ -5,7 +5,7 @@ export const skillsData = [
   "Grid",
   "Styled Components",
   "Responsing web Design",
-  "JavaScript: ES6+",
+  "JavaScript ES6+",
   "Immutability",
   "React",
   "React Hooks",
