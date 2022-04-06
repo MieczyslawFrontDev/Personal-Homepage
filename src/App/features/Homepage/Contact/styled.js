@@ -41,5 +41,6 @@ export const Text = styled.p`
 
   @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
     font-size: 14px;
+    margin-bottom: 40px;
   }
 `;
