@@ -3,6 +3,10 @@ import { ReactComponent as GitHub } from "../Portfolio/github_blue.svg";
 
 export const Wrapper = styled.section`
   margin-top: 72px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
+    margin-top: 48px;
+  }
 `;
 
 export const Header = styled.header`
