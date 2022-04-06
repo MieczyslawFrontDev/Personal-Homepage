@@ -41,6 +41,11 @@ export const Title = styled.h2`
 export const Icon = styled.img`
   width: 27px;
   height: 27px;
+
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}){
+  width: 17px;
+  height: 17px;
+  }  
 `;
 
 export const List = styled.ul`
