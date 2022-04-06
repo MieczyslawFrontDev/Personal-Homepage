@@ -24,7 +24,7 @@ export const skillsData = [
 ];
 
 export const nextSkillsData = [
+  "JS classes",
   "TypeScript",
-  "React Native",
-  "Node.js",
+  "Preprocesor SASS",
 ];
